@@ -1,0 +1,44 @@
+.main {
+    @apply max-h-full;
+    background: #ff8e00;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply bg-none ;
+}
+
+.textbox {
+    @apply bg-none;
+}
+
+.title {
+    @apply text-white font-thin pt-10 pb-8 xs:text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center;
+}
+
+.additonalitems {
+    @apply flex flex-col items-center ;
+}
+
+.item {
+    @apply lg:w-7/12 md:w-10/12 md:my-8 mt-2 flex flex-row w-full items-center;
+}
+
+.itemimage {
+    @apply xs:ml-8 shadow-2xl  rounded-full;
+}
+
+.itemtextbox {
+    @apply  text-left flex flex-col mx-4 my-4 w-9/12 xs:border xs:border-white xs:border-opacity-10 xs:rounded-xl xs:bg-gray-700 shadow-lg xs:bg-opacity-10 p-4 ;
+}
+
+.itemtitle {
+    @apply  text-amber-200 font-thin xs:text-lg sm:text-xl md:text-4xl lg:text-5xl;
+}
+
+.itemdescription {
+    @apply text-white my-2 lg:text-2xl md:text-xl  tracking-tight font-semibold;
+}

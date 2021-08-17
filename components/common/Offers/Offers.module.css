@@ -1,0 +1,88 @@
+.main {
+    @apply lg:h-screen lg:max-h-screen bg-gradient-to-t from-gray-300 via-gray-200 to-white flex justify-center;
+}
+
+.responsive {
+    @apply flex items-center ;
+}
+
+.content {
+    @apply bg-none;
+}
+
+.item {
+    @apply bg-none;
+}
+
+.offerscontainer {
+    @apply flex lg:flex-row flex-col lg:py-4 py-8 items-center ;
+}
+
+.offercard {
+    @apply flex flex-col bg-white shadow-2xl px-4 my-8 mx-8 w-80  rounded-xl;
+    height: 400px;
+}
+
+.offertext {
+    @apply bg-none;
+}
+
+.offerdescriptionbox{
+    @apply mx-2 my-2 pb-4;
+}
+
+.offerdescription{
+    @apply text-gray-500;
+}
+.offertitle {
+    @apply text-center text-2xl py-2 border-b border-gray-400 border-opacity-20;
+}
+
+.pricebox {
+    @apply flex flex-col pb-2 mx-2;
+}
+
+.price {
+    @apply text-5xl text-green-600;
+}
+
+.interval {
+    @apply font-thin text-lg mx-1;
+}
+
+.additionalbenefitsbox {
+    @apply flex flex-col py-2;
+}
+
+.additionallabelbox {
+    @apply text-center font-bold pb-2;
+}
+
+.additionallabel {
+    @apply text-2xl;
+}
+
+.benefitbox {
+    @apply font-thin mb-1 flex flex-row;
+}
+
+.benefit {
+    @apply text-sm;
+}
+
+.buttonbox {
+    @apply bg-orange-300 px-2 py-2 pb-3 hover:bg-orange-400
+     rounded-lg;
+}
+.secondbuttonbox {
+    @apply bg-orange-400 px-2 py-2 pb-3 hover:bg-orange-400
+     rounded-lg;
+}
+.thirdbuttonbox {
+    @apply bg-orange-500 px-2 py-2 pb-3 hover:bg-orange-400
+     rounded-lg;
+}
+
+.button {
+    @apply flex text-white justify-center;
+}

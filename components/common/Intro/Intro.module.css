@@ -1,0 +1,36 @@
+.main {
+    @apply h-screen max-h-screen bg-gray-900 flex  md:items-center;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply flex flex-col md:flex-row xl:mx-52 lg:mx-40 items-center  md:mx-32;
+}
+
+.imagery {
+    @apply w-1/2 flex justify-center xs:pt-20;
+}
+
+.text {
+    @apply flex flex-col items-center justify-center md:w-1/2  xs:mx-6 md:pt-0 xs:pt-20 ;
+}
+
+.title {
+    @apply xs:text-xl md:text-2xl xs:text-center md:text-left lg:text-3xl xl:text-5xl tracking-widest lg:py-6 mb-2 md:py-4 py-3 text-orange-400 font-thin ;
+}
+
+.description {
+    @apply xs:text-3xl mx-5  md:text-left  sm:text-4xl md:text-3xl lg:text-4xl xl:text-5xl tracking-tight  max-w-prose flex  font-bold text-white ;
+}
+
+.buttonbox {
+    @apply flex justify-center lg:mt-12 mt-8 md:mr-16 items-center border rounded-full border-white border-opacity-40 z-40;
+    background: #ff8e00;
+}
+
+.button {
+    @apply lg:px-6 md:py-2 md:pb-3 py-1 px-4 z-40 lg:text-2xl md:text-xl text-white font-thin sm:text-lg;
+}

@@ -1,0 +1,43 @@
+.main {
+    @apply mx-5 overflow-hidden;
+}
+
+.responsive {
+    @apply bg-none ;
+}
+
+.content {
+    @apply bg-none;
+}
+
+.item {
+    @apply bg-gray-100 pt-4 lg:pt-8 h-96 w-96  rounded-xl shadow-2xl px-2;
+}
+
+.reviewtext {
+    @apply border-b ;
+}
+
+.reviewname {
+    @apply mx-2 xl:text-4xl lg:text-3xl text-2xl  font-thin;
+}
+
+.reviewstatus {
+    @apply font-bold ;
+}
+
+.reviewdate {
+    @apply font-thin;
+}
+
+.reviewdescription {
+    @apply mx-4 my-4 text-lg;
+}
+
+.reviewdetails {
+    @apply flex flex-col px-2 pb-2;
+}
+
+.reviewmid {
+    @apply flex justify-center items-center;
+}

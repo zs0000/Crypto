@@ -1,0 +1,19 @@
+.main {
+    @apply bg-gray-900 flex justify-center items-center;
+}
+
+.contained {
+    @apply py-10;
+}
+
+.text {
+    @apply font-serif text-center text-white;
+}
+
+.socials {
+    @apply flex flex-row justify-center my-8;
+}
+
+.social {
+    @apply mx-2;
+}

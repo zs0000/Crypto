@@ -1,0 +1,87 @@
+.main {
+    @apply h-screen max-h-screen z-40 ;
+}
+
+.responsive {
+    @apply  z-40;
+}
+
+.content {
+    @apply flex flex-col items-center z-40;
+}
+
+.items {
+    @apply flex flex-row  justify-evenly z-40 w-full lg:py-20 md:pt-28 xs:pt-20 pt-4;
+}
+
+.andmore {
+   @apply flex flex-row  justify-evenly z-40 w-full lg:px-48 py-4;
+}
+
+.card {
+    @apply z-40 flex flex-col justify-center text-center items-center m-2;
+}
+
+.morecard {
+    @apply  z-40 flex flex-col justify-center text-center w-1/3 items-center; 
+}
+
+.cardtext {
+    @apply md:text-xl w-full text-center sm:text-lg text-white font-thin md:my-4;
+}
+
+.itemimage {
+    @apply z-40 lg:w-auto md:w-8/12 xs:w-9/12;
+}
+
+.moreimage {
+    @apply z-40  lg:w-auto xs:w-9/12 md:w-5/12 rounded-full bg-gray-900 p-1;
+}
+
+.wave {
+    @apply overflow-hidden;
+    height: 150px;
+}
+
+.svg {
+    @apply overflow-hidden;
+    height: 100%; width: 100%;
+}
+
+.path {
+    @apply overflow-hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s;
+}
+
+.bg {
+    @apply overflow-x-hidden;
+}
+
+.bottom {
+    @apply overflow-x-hidden absolute w-full h-screen flex items-end z-10;
+}
+
+.keeper {
+    @apply bg-none;
+}
+
+
+.moretext {
+    @apply bg-black rounded-full md:text-xl text-center sm:text-lg p-1 px-2 bg-opacity-10  text-white lg:font-bold md:my-2;
+}
+
+.moretitle {
+    @apply text-sm ;
+}
+
+.title {
+    @apply text-white font-thin text-center lg:text-8xl md:text-7xl sm:text-4xl xs:text-4xl py-2 xs:pb-6 z-40;
+}
+
+.description {
+    @apply lg:w-1/2 md:w-9/12 text-justify text-white  xl:text-3xl lg:text-2xl md:text-xl lg:pt-8 md:pt-6 pt-4 mx-8;
+}
+
+.textbox {
+    @apply z-40 flex flex-col items-center;
+}

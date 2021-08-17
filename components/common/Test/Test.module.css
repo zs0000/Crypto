@@ -1,0 +1,3 @@
+.bg {
+    @apply h-screen flex items-end absolute w-full;
+}

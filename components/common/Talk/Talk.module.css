@@ -1,0 +1,36 @@
+.main {
+    @apply h-screen max-h-screen flex justify-center overflow-x-hidden items-center z-40;
+ 
+}
+
+.bg {
+    @apply  overflow-hidden absolute z-0 h-screen max-h-screen w-full;
+}
+
+.responsive {
+    @apply bg-none;
+}
+
+.content {
+    @apply  z-40;
+}
+
+.item {
+    @apply w-screen;
+}
+
+.path {
+    @apply overflow-hidden;
+}
+
+.svg {
+    @apply overflow-hidden;
+}
+
+.page {
+    @apply flex  justify-center  my-4 mb-6 md:mb-20 z-40;
+}
+
+.pagetitle {
+    @apply z-40 xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl xs:text-3xl text-white text-center font-thin;
+}
